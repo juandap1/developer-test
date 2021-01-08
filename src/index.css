@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #c0c0c0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wishlistModal {
+  position: absolute;
+  width: 400px;
+  height: 540px;
+  border-radius: 15px;
+  background-color: #FFB6C1;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.46),0 4px 20px 0 rgba(0,0,0,0.42);
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.wishlistModal h3 {
+  text-align: center;
+}
+
+.wishlist {
+  position: relative;
+  width: 250px;
+  left: 75px;
+  height: 250px;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 2.5px;
+  margin-bottom: 20px;
+}
+
+#wishInp {
+  position: relative;
+  width: 245px;
+  height: 25px;
+  left: 75px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  position: relative;
+  background-color: #98FB98;
+  height: 40px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 7.5px;
+  border-color: Transparent;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submitBtn {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+.item {
+  cursor: pointer;
 }
